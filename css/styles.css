@@ -1,0 +1,211 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.box-1 {
+    background-color: black;
+    color: floralwhite;
+
+    border-top-width: 6px;
+    border-top-color: red;
+    border-top-style: solid;
+
+    /* Same as above */
+    border-top: 6px red solid;
+
+    border-right: 6px red solid;
+    border-bottom: 6px red solid;
+    border-left: 6px red solid;
+
+    /* Same as above */
+    border: 6px red solid;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    /* Same as above */
+    padding: 10px 20px 10px 20px;
+
+    /* Same as above */
+    padding: 10px 20px;
+
+    /* Override padding */
+    padding: 20px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+    /* Same as above */
+    margin: 10px 20px 10px 20px;
+
+    /* Same as above */
+    margin: 10px 20px;
+
+    /* Override margin */
+    margin: 20px;
+}
+
+.box-1 h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 6px grey dotted;
+    padding: 20px;
+    margin: 20px;
+}
+
+.categories {
+    border: 1px grey solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories li {
+    list-style: none;
+    border-bottom: 1px black dashed;
+    padding: 5px 0;
+}
+
+.my-form {
+    border: 3px grey dotted;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-group {
+    margin: 20px 10px;
+    padding: 0 10px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    border: 1px black dotted;
+    padding: 5px;
+}
+
+#main-section {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.p-box {
+    border: 1px black solid;
+    height: 400px;
+    width: 1000px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    left: 200px;
+}
+
+.p-box h3 {
+    position: relative;
+    bottom: 20px;
+    right: 150px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+    left: 0;
+}
+
+.my-item li:first-child {
+    background-color: red;
+}
+
+.my-item li:last-child {
+    background-color: blue;
+}
+
+.my-item li:nth-child(5) {
+    background-color: orange;
+}
+
+.my-item li:nth-child(even) {
+    background-color: grey;
+}
